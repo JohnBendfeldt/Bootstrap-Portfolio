@@ -4,30 +4,33 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<div id="main-menu">
+<div id="main-menu" class="row">
 	<header>
 		<div class="banner">
 			<a href="index.html"><h1>John Bendfeldt</h1></a>
 <!-- Navigational links. -->
 			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Porfolio</a>
-				<a href="contact.html">Contact</a>
+				<ul class="nav nav-tabs">
+  					<li role="presentation" class="active"><a href="index.html">About</a></li>
+  					<li role="presentation"><a href="portfolio.html">Porfolio</a></li>
+  					<li role="presentation"><a href="contact.html">Contact</a></li>
+				</ul>	
 			</nav>
 		</div>
 	</header>
 </div>
-<body>
-	<div class="container">
+<body class="container">
 <!-- Big content box in middle	-->
-			<section class="content">
+	<div class="row">
+	<div class="col-md-8">
+		<section class="content">
 			<h2>Portfolio</h2>
 			<br>
 <!-- Images for the main content block -->
-			<div class="image">
+			<div class="image" class="col-md-3">
 				<img src="images/cat1.jpg" class="cats" alt="kitten">
 				<h4>Building Websites</h4>
 			</div>
@@ -48,7 +51,9 @@
 			<h4>American Freedom</h4>
 			</div>
 		</section>
-<!-- connect with me box -->
+	</div>
+<!-- Connect with me box -->
+	<div class="col-md-4">
 		<section class="connect">
 			<h3>Connect with Me</h3>
 			<br>
@@ -56,6 +61,7 @@
 			<a href="https://www.linkedin.com/in/john-bendfeldt-b32736130/" target="_blank"><img src="images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn"></a>
 			<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank"><img src="images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow"></a>
 		</section>
+	</div>
 	</div>
 </body>
 <footer>

@@ -4,25 +4,28 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Index</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <div id="main-menu">
 	<header>
-		<div class="banner">
+		<div class="banner" class="container">
 			<a href="index.html"><h1>John Bendfeldt</h1></a>
 <!-- Navigational links. -->
 			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Porfolio</a>
-				<a href="contact.html">Contact</a>
+				<ul class="nav nav-tabs">
+  					<li role="presentation" class="active"><a href="index.html">About</a></li>
+  					<li role="presentation"><a href="portfolio.html">Porfolio</a></li>
+  					<li role="presentation"><a href="contact.html">Contact</a></li>
+				</ul>	
 			</nav>
 		</div>
 	</header>
 </div>
-<body>
+<body  class="container">
 <!-- Larger content box -->
-	<div class="container">
+	<div class="row">
+	<div class="col-md-8">
 		<section class="content">
 			<h2>About Me</h2>
 			<br>
@@ -33,7 +36,9 @@
 			<br>
 			<p>I was looking for a way to express myself creatively. I stepped down as a manager at Domino’s at the beginning of 2017 and enrolled in the Full-Stack Coding Boot Camp at UT Austin. My dream is to be a full-stack web developer. I enjoy working with a team to help create satisfied customers. While I am great with a team I am also self-motivated and can work alone to find solutions to challenges that arise.</p>
 		</section>
+	</div>
 <!-- Connect with me box -->
+	<div class="col-md-4">
 		<section class="connect">
 			<h3>Connect with Me</h3>
 			<br>
@@ -41,6 +46,7 @@
 			<a href="https://www.linkedin.com/in/john-bendfeldt-b32736130/" target="_blank"><img src="images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn"></a>
 			<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank"><img src="images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow"></a>
 		</section>
+	</div>
 	</div>
 </body>
 <footer>

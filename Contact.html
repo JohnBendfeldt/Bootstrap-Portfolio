@@ -13,15 +13,19 @@
 			<a href="index.html"><h1>John Bendfeldt</h1></a>
 <!-- Navigational links. -->
 			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Porfolio</a>
-				<a href="contact.html">Contact</a>
+				<ul class="nav nav-tabs">
+  					<li role="presentation" class="active"><a href="index.html">About</a></li>
+  					<li role="presentation"><a href="portfolio.html">Porfolio</a></li>
+  					<li role="presentation"><a href="contact.html">Contact</a></li>
+				</ul>	
 			</nav>
 		</div>
 	</header>
 </div>
-<body>
-	<div class="container">
+<body  class="container">
+<!-- Larger content box -->
+	<div class="row">
+	<div class="col-md-8">
 		<section class="content">
 			<h2>Contact</h2>
   			<form action="/action_page.php">
@@ -39,6 +43,9 @@
 
   			</form>
 		</section>
+	</div>
+<!-- Connect with me box -->
+	<div class="col-md-4">
 		<section class="connect">
 			<h3>Connect with Me</h3>
 			<br>
@@ -46,6 +53,7 @@
 			<a href="https://www.linkedin.com/in/john-bendfeldt-b32736130/" target="_blank"><img src="images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn"></a>
 			<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank"><img src="images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow"></a>
 		</section>
+	</div>
 	</div>
 </body>
 <footer>
