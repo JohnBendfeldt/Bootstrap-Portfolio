@@ -131,8 +131,6 @@ p {
 }
 /* cat pictures and parameters established with hover features*/
 .cats {
-	display: flex;
-	justify-content: space-around;
 	width: 230px;
 	z-index: 16;
 }
@@ -145,7 +143,6 @@ p {
    display: inline-block;
    z-index: 1;
 }
-
 img {
 	z-index: 20;
 }
@@ -160,7 +157,7 @@ h4 {
    padding: 10px 0px 10px 0px;
    margin: auto;
    left: 0px;
-   bottom: 50px;
+   bottom: 20px;
 }
 /* Establishes sticky footer */
 footer {
