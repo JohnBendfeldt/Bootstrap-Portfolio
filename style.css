@@ -199,13 +199,15 @@ footer {
 	border-top: solid 6px #4AAAA5;
 	width: 100% !important;
 	margin: 0px auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	color: #BFBEBC;
 	font-size: 10px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	z-index: 96;
 	box-shadow: 3px -3px 10px #666972;
+	bottom: 0px;
+	position: fixed;
 }
 /* Establishes input attributes for the contact/ message form. */
 input[type=text], select, textarea {
